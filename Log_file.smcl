@@ -1,0 +1,446 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\Log_file.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}14 Jan 2024, 13:53:49
+
+{com}. {smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\Log_file.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}14 Jan 2024, 15:02:28
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your Excel file
+. local excel_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling"
+{txt}
+{com}. 
+. 
+. // List all the sheets in the Excel file
+. import excel using "`excel_file'", firstrow
+{res}{err}file C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your Excel file
+. local excel_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\resources-other-llbifr-data.xlsx""
+{txt}
+{com}. 
+. 
+. // List all the sheets in the Excel file
+. import excel using "`excel_file'", firstrow
+{err}invalid '", firstrow' 
+{txt}{search r(198):r(198);}
+
+end of do-file
+
+{search r(198):r(198);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your Excel file
+. local excel_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\resources-other-llbifr-data.xlsx""
+{txt}
+{com}. 
+. 
+. // List all the sheets in the Excel file
+. import excel using "excel_file", firstrow
+{res}{err}file excel_file not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your Excel file
+. local excel_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\resources-other-llbifr-data.xlsx""
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // List all the sheets in the Excel file
+. import excel using "excel_file", firstrow
+{res}{err}file excel_file not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. local sheets "Datasets A1_descriptives A1_Pivot A2_Ginis_and_FRD A2_Pivot A3_Budget_size_and_Target A3_Pivot A4_Budget_size_programs A4_Pivot A5_Decomposition A5_Pivot"
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. foreach sheet in `sheets' {c -(}
+{txt}  2{com}.     // Define the name for the STATA dataset
+.     local dataset_name "sheet"
+{txt}  3{com}. 
+.     // Import the current sheet
+.     import excel using "excel_file", firstrow sheet("`sheet'")
+{txt}  4{com}. 
+.     // Save the dataset with the specified name
+.     save "dataset_name", replace
+{txt}  5{com}. {c )-}
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your Excel file
+. local excel_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\resources-other-llbifr-data.xlsx"
+{txt}
+{com}. 
+. 
+. // List of sheets
+. local sheets "Datasets A1_descriptives A1_Pivot A2_Ginis_and_FRD A2_Pivot A3_Budget_size_and_Target A3_Pivot A4_Budget_size_programs A4_Pivot A5_Decomposition A5_Pivot"
+{txt}
+{com}. 
+. // Iterate through the sheets and import them into STATA as separate datasets
+. foreach sheet in `sheets' {c -(}
+{txt}  2{com}.     // Define the name for the STATA dataset
+.     local dataset_name "`sheet'"
+{txt}  3{com}. 
+.     // Import the current sheet
+.     import excel using "`excel_file'", firstrow sheet("`sheet'")
+{txt}  4{com}. 
+.     // Save the dataset as a Stata file with the specified name
+.     save "`dataset_name'.dta", replace
+{txt}  5{com}. {c )-}
+{res}{err}file C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\resources-other-llbifr-data.xlsx could not be loaded
+{txt}{search r(603):r(603);}
+
+end of do-file
+
+{search r(603):r(603);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your Excel file
+. local excel_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\resources-other-llbifr-data.xlsx""
+{txt}
+{com}. 
+. 
+. // List all the sheets in the Excel file
+. import excel using "excel_file", firstrow
+{res}{err}file excel_file not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your Excel file
+. local excel_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\resources-other-llbifr-data.xlsx"
+{txt}
+{com}. 
+. 
+. // List all the sheets in the Excel file
+. import excel using "excel_file", firstrow
+{res}{err}file excel_file not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your Excel file
+. local excel_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\resources-other-llbifr-data.xlsx"
+{txt}
+{com}. 
+. 
+. // List all the sheets in the Excel file
+. import excel using "excel_file", firstrow
+{res}{err}file excel_file not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. //Import the "Datasets" worksheet containing gross and net income data into STATA
+. 
+. // Specify the path where CSV files are located
+. local csv_path "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data"
+{txt}
+{com}. 
+. // List all CSV files in the specified path
+. local csv_files : dir "`csv_path'" files "*.csv"
+{txt}
+{com}. 
+. // Iterate through the CSV files and import them into Stata as separate datasets
+. foreach file in `csv_files' {c -(}
+{txt}  2{com}.     // Extract the filename without extension to use as the dataset name
+.     local dataset_name : subinstr local file ".csv" "", all
+{txt}  3{com}. 
+.     // Import the current CSV file
+.     import delimited "`csv_path'\`file'", clear
+{txt}  4{com}. 
+.     // Save the dataset as a Stata file with the specified name
+.     save "`dataset_name'.dta", replace
+{txt}  5{com}. {c )-}
+{res}{err}file C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data.csv not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. //Import the "Datasets" worksheet containing gross and net income data into STATA
+. 
+. // Specify the path where CSV files are located
+. local csv_path "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data"
+{txt}
+{com}. 
+. // List all CSV files in the specified path
+. local csv_files : dir "`csv_path'" files "*.csv"
+{txt}
+{com}. 
+. // Iterate through the CSV files and import them into Stata as separate datasets
+. foreach file in `csv_files' {c -(}
+{txt}  2{com}.     // Extract the filename without extension to use as the dataset name
+.     local dataset_name : subinstr local file ".csv" "", all
+{txt}  3{com}. 
+.     // Import the current CSV file
+.     import delimited "`csv_path'\`file'", clear
+{txt}  4{com}. 
+.     // Save the dataset as a Stata file with the specified name
+.     save "`dataset_name'.dta", replace
+{txt}  5{com}. {c )-}
+{res}{err}file C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data.csv not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. //Import the "Datasets" worksheet containing gross and net income data into STATA
+. 
+. // Specify the path where the CSV files are located
+. local csv_folder "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data"
+{txt}
+{com}. 
+. // List all CSV files in the specified folder
+. local csv_files : dir "`csv_folder'" files "*.csv"
+{txt}
+{com}. 
+. // Iterate through the CSV files and import them into Stata as separate datasets
+. foreach file in `csv_files' {c -(}
+{txt}  2{com}.     // Extract the filename without extension to use as the dataset name
+.     local dataset_name : subinstr local file ".csv" "", all
+{txt}  3{com}. 
+.     // Import the current CSV file
+.     import delimited "`csv_folder'\`file'", clear
+{txt}  4{com}. 
+.     // Save the dataset as a Stata file with the specified name
+.     save "`dataset_name'.dta", replace
+{txt}  5{com}. {c )-}
+{res}{err}file C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data.csv not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. //Import the "Datasets" worksheet containing gross and net income data into STATA
+. 
+. // Specify the path where the CSV files are located
+. local csv_folder "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data"
+{txt}
+{com}. 
+. // List all CSV files in the specified folder
+. local csv_files : dir "`csv_folder'" files "*.csv"
+{txt}
+{com}. 
+. // Iterate through the CSV files and import them into Stata as separate datasets
+. foreach file in `csv_files' {c -(}
+{txt}  2{com}.     // Extract the filename without extension to use as the dataset name
+.     local dataset_name : subinstr local file ".csv" "", all
+{txt}  3{com}. 
+.     // Import the current CSV file
+.     import delimited "`csv_folder'\`file'", clear
+{txt}  4{com}. 
+.     // Save the dataset as a Stata file with the specified name
+.     save "`dataset_name'.dta", replace
+{txt}  5{com}. {c )-}
+{res}{err}file C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data.csv not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. //Import the "Datasets" worksheet containing gross and net income data into STATA
+. 
+. // Specify the path where the CSV files are located
+. local csv_folder "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data"
+{txt}
+{com}. 
+. // List all CSV files in the specified folder
+. local csv_files : dir "`csv_folder'" files "*.csv"
+{txt}
+{com}. 
+. // Iterate through the CSV files and import them into Stata as separate datasets
+. foreach file in `csv_files' {c -(}
+{txt}  2{com}.     // Extract the filename without extension to use as the dataset name
+.     local dataset_name : subinstr local file ".csv" "", all
+{txt}  3{com}. 
+.     // Import the current CSV file
+.     import delimited "`csv_folder'\`file'", clear
+{txt}  4{com}. 
+.     // Save the dataset as a Stata file with the specified name
+.     save "`dataset_name'.dta", replace
+{txt}  5{com}. {c )-}
+{res}{err}file C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data.csv not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. //Import the "Datasets" worksheet containing gross and net income data into STATA
+. 
+. // Specify the path where the CSV files are located
+. local csv_folder "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data"
+{txt}
+{com}. 
+. // List all CSV files in the specified folder
+. local csv_files : dir "`csv_folder'" files "*.csv"
+{txt}
+{com}. 
+. // Iterate through the CSV files and import them into Stata as separate datasets
+. foreach file in `csv_files' {c -(}
+{txt}  2{com}.     // Extract the filename without extension to use as the dataset name
+.     local dataset_name : subinstr local file ".csv" "", all
+{txt}  3{com}. 
+.     // Import the current CSV file
+.     import delimited "`csv_folder'\`file'", clear
+{txt}  4{com}. 
+.     // Save the dataset as a Stata file with the specified name
+.     save "`dataset_name'.dta", replace
+{txt}  5{com}. {c )-}
+{res}{err}file C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data.csv not found
+{txt}{search r(601):r(601);}
+
+end of do-file
+
+{search r(601):r(601);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your CSV file
+. local csv_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data\Datasets.csv"
+{txt}
+{com}. 
+. // Import the "Datasets" worksheet into Stata
+. import delimited "`csv_file'", clear
+{res}{text}(5 vars, 70 obs)
+{com}. 
+. // Save the dataset as a Stata file
+. save "Datasets.dta", replace
+{txt}(note: file Datasets.dta not found)
+file Datasets.dta saved
+
+{com}. 
+{txt}end of do-file
+
+{com}. save "Datasets.dta", replace
+{txt}file Datasets.dta saved
+
+{com}. save "Datasets.dta", replace
+{txt}file Datasets.dta saved
+
+{com}. save "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data\Datasets.dta"
+{txt}file C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data\Datasets.dta saved
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your CSV file
+. local csv_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data\A1 Descriptives.csv"
+{txt}
+{com}. 
+. // Import the "A1 Descriptives" worksheet into Stata
+. import delimited "`csv_file'", clear
+{res}{text}(17 vars, 336 obs)
+{com}. 
+. // Display initial descriptive statistics
+. summarize year region country
+{err}variable year not found
+{txt}{search r(111):r(111);}
+
+end of do-file
+
+{search r(111):r(111);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your CSV file
+. local csv_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data\A1 Descriptives.csv"
+{txt}
+{com}. 
+. // Import the "A1 Descriptives" worksheet into Stata
+. import delimited "`csv_file'", clear
+{res}{text}(11 vars, 308 obs)
+{com}. 
+. // Display initial descriptive statistics
+. summarize year region country
+{err}variable year not found
+{txt}{search r(111):r(111);}
+
+end of do-file
+
+{search r(111):r(111);}
+
+{com}. do "C:\Users\DONKAMS\AppData\Local\Temp\STD01000000.tmp"
+{txt}
+{com}. // Specify the path to your CSV file
+. local csv_file "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\data\A1 Descriptives.csv"
+{txt}
+{com}. 
+. // Import the "A1 Descriptives" worksheet into Stata
+. import delimited "`csv_file'", clear
+{res}{text}(11 vars, 308 obs)
+{com}. 
+. // Display initial descriptive statistics
+. summarize year region country
+{err}variable year not found
+{txt}{search r(111):r(111);}
+
+end of do-file
+
+{search r(111):r(111);}
+
+{com}. 

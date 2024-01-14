@@ -1,0 +1,3 @@
+DataFrame Names: ['A1 Descriptives', 'A1 Pivots', 'A2 Budget size and Target', 'A2 Ginis and FRD', 'A2 Pivot', 'A3 Pivot', 'A4 Budget size programs', 'A4 Pivot', 'A5 Decomposition', 'A5 Pivot', 'Datasets']
+
+selected_countries = ['Canada', 'Australia', 'China', 'Austria', 'United States', 'United Kingdom', 'France', 'Germany', 'India', 'Brazil',]

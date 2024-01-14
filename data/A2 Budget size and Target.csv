@@ -1,0 +1,307 @@
+Year,Code,Region,Wave,LIS Dataset,Gross / net,Budget size (transfers),Budget size (income taxes),Efficiency (transfers),"Efficiency
+(income taxes)"
+2010,AU,Anglo-Saxon,Wave VIII,Australia 2010,Gross,0.129,0.155,-0.318,-0.565
+2008,AU,Anglo-Saxon,Wave VII,Australia 2008,Gross,0.119,0.172,-0.321,-0.569
+2003,AU,Anglo-Saxon,Wave VI,Australia 2003,Gross,0.135,0.2,-0.336,-0.546
+2001,AU,Anglo-Saxon,Wave V,Australia 2001,Gross,0.14,0.19,-0.335,-0.561
+1995,AU,Anglo-Saxon,Wave IV,Australia 1995,Gross,0.137,0.201,-0.34,-0.543
+1989,AU,Anglo-Saxon,Wave III,Australia 1989,Gross,0.097,0.216,-0.37,-0.532
+1985,AU,Anglo-Saxon,Wave II,Australia 1985,Gross,0.107,0.224,-0.34,-0.522
+1981,AU,Anglo-Saxon,Wave I,Australia 1981,Gross,0.097,0.216,-0.324,-0.492
+2013,AT,EU15,Wave IX,Austria 2013,Gross,0.261,0.254,0.045,-0.458
+2010,AT,EU15,Wave VIII,Austria 2010,Gross,0.257,0.246,0.035,-0.474
+2007,AT,EU15,Wave VII,Austria 2007,Gross,0.238,0.256,0.022,-0.465
+2004,AT,EU15,Wave VI,Austria 2004,Gross,0.267,0.251,0.079,-0.416
+2000,AT,EU15,Wave V,Austria 2000,Net,0.274,,0.04,
+1997,AT,EU15,Wave IV,Austria 1997,Net,0.269,,0.056,
+1995,AT,EU15,Wave IV,Austria 1995,Mix,,,,
+1994,AT,EU15,Wave IV,Austria 1994,Net,0.254,,0.028,
+1987,AT,EU15,Wave II,Austria 1987,Mix,,,,
+2000,BE,EU15,Wave V,Belgium 2000,Net,0.245,,-0.165,
+1997,BE,EU15,Wave IV,Belgium 1997,Gross,0.217,0.303,-0.126,-0.5
+1995,BE,EU15,Wave IV,Belgium 1995,Net,0.28,,-0.079,
+1992,BE,EU15,Wave III,Belgium 1992,Gross,0.226,0.266,-0.144,-0.473
+1988,BE,EU15,Wave III,Belgium 1988,Net,0.278,,-0.073,
+1985,BE,EU15,Wave II,Belgium 1985,Net,0.268,,-0.095,
+2013,BR,BRICS,Wave IX,Brazil 2013,Gross,0.204,0.09,0.158,-0.58
+2011,BR,BRICS,Wave VIII,Brazil 2011,Gross,0.202,0.086,0.153,-0.581
+2009,BR,BRICS,Wave VII,Brazil 2009,Gross,0.21,0.084,0.201,-0.59
+2006,BR,BRICS,Wave VI,Brazil 2006,Gross,0.207,0.082,0.206,-0.572
+2010,CA,Anglo-Saxon,Wave VIII,Canada 2010,Gross,0.182,0.189,-0.066,-0.523
+2007,CA,Anglo-Saxon,Wave VII,Canada 2007,Gross,0.17,0.2,-0.074,-0.51
+2004,CA,Anglo-Saxon,Wave VI,Canada 2004,Gross,0.17,0.212,-0.079,-0.498
+2000,CA,Anglo-Saxon,Wave V,Canada 2000,Gross,0.158,0.237,-0.117,-0.49
+1998,CA,Anglo-Saxon,Wave V,Canada 1998,Gross,0.175,0.202,-0.103,-0.522
+1997,CA,Anglo-Saxon,Wave IV,Canada 1997,Gross,0.162,0.203,-0.147,-0.502
+1994,CA,Anglo-Saxon,Wave IV,Canada 1994,Gross,0.17,0.199,-0.137,-0.501
+1991,CA,Anglo-Saxon,Wave III,Canada 1991,Gross,0.158,0.198,-0.109,-0.486
+1987,CA,Anglo-Saxon,Wave II,Canada 1987,Gross,0.128,0.19,-0.184,-0.476
+1981,CA,Anglo-Saxon,Wave I,Canada 1981,Gross,0.101,0.153,-0.206,-0.481
+1975,CA,Anglo-Saxon,Historical wave,Canada 1975,Gross,0.103,0.147,-0.186,-0.491
+1971,CA,Anglo-Saxon,Historical wave,Canada 1971,Gross,0.077,0.148,-0.26,-0.521
+2002,CN,BRICS,Wave V,China 2002,Mix,0.127,0.051,0.324,-0.486
+2013,CO,Latin America,Wave IX,Colombia 2013,Mix,0.112,0.125,0.25,-0.584
+2010,CO,Latin America,Wave VIII,Colombia 2010,Mix,0.114,0.114,-0.198,-0.58
+2007,CO,Latin America,Wave VII,Colombia 2007,Mix,0.103,0.124,-0.188,-0.572
+2004,CO,Latin America,Wave VI,Colombia 2004,Gross,0.082,0.049,-0.047,-0.504
+2013,CZ,CEE,Wave IX,Czech Republic 2013,Gross,0.205,0.138,-0.198,-0.52
+2010,CZ,CEE,Wave VIII,Czech Republic 2010,Gross,0.208,0.138,-0.176,-0.511
+2007,CZ,CEE,Wave VII,Czech Republic 2007,Gross,0.2,0.17,-0.225,-0.498
+2004,CZ,CEE,Wave VI,Czech Republic 2004,Gross,0.207,0.174,-0.217,-0.498
+2002,CZ,CEE,Wave V,Czech Republic 2002,Gross,0.209,0.163,-0.242,-0.508
+1996,CZ,CEE,Wave IV,Czech Republic 1996,Gross,0.17,0.175,-0.292,-0.472
+1992,CZ,CEE,Wave III,Czech Republic 1992,Gross,0.241,0.134,-0.208,-0.411
+2013,DK,EU15,Wave IX,Denmark 2013,Gross,0.236,0.321,-0.199,-0.364
+2010,DK,EU15,Wave VIII,Denmark 2010,Gross,0.224,0.318,-0.209,-0.367
+2007,DK,EU15,Wave VII,Denmark 2007,Gross,0.2,0.335,-0.236,-0.365
+2004,DK,EU15,Wave VI,Denmark 2004,Gross,0.226,0.326,-0.223,-0.362
+2000,DK,EU15,Wave V,Denmark 2000,Gross,0.212,0.341,-0.247,-0.364
+1995,DK,EU15,Wave IV,Denmark 1995,Gross,0.243,0.341,-0.206,-0.345
+1992,DK,EU15,Wave III,Denmark 1992,Gross,0.227,0.334,-0.163,-0.384
+1987,DK,EU15,Wave II,Denmark 1987,Gross,0.205,0.315,-0.122,-0.358
+2007,DO,Latin America,Wave VII,Dominican Rep. 2007,Gross,0.028,0.024,0.026,0.163
+2012,EG,Middle East,Wave IX,Egypt 2012,Net,0.097,,-0.04,
+2013,EE,CEE,Wave IX,Estonia 2013,Gross,0.191,0.15,0.022,-0.505
+2010,EE,CEE,Wave VIII,Estonia 2010,Gross,0.21,0.155,0.006,-0.484
+2007,EE,CEE,Wave VII,Estonia 2007,Gross,0.154,0.159,-0.107,-0.466
+2004,EE,CEE,Wave VI,Estonia 2004,Gross,0.175,0.167,-0.107,-0.537
+2000,EE,CEE,Wave V,Estonia 2000,Mix,0.224,0.121,-0.028,-0.177
+2013,FI,EU15,Wave IX,Finland 2013,Gross,0.255,0.243,-0.033,-0.441
+2010,FI,EU15,Wave VIII,Finland 2010,Gross,0.246,0.233,-0.052,-0.438
+2007,FI,EU15,Wave VII,Finland 2007,Gross,0.235,0.242,-0.039,-0.432
+2004,FI,EU15,Wave VI,Finland 2004,Gross,0.234,0.256,-0.062,-0.431
+2000,FI,EU15,Wave V,Finland 2000,Gross,0.236,0.275,-0.086,-0.424
+1995,FI,EU15,Wave IV,Finland 1995,Gross,0.299,0.282,-0.074,-0.42
+1991,FI,EU15,Wave III,Finland 1991,Gross,0.225,0.25,-0.097,-0.413
+1987,FI,EU15,Wave II,Finland 1987,Gross,0.191,0.266,-0.15,-0.414
+2010,FR,EU15,Wave VIII,France 2010,Mix,0.291,0.048,0.082,-0.528
+2005,FR,EU15,Wave VI,France 2005,Mix,0.303,0.048,0.111,-0.478
+2000,FR,EU15,Wave V,France 2000,Mix,0.275,0.06,0.047,-0.562
+1994,FR,EU15,Wave IV,France 1994,Mix,0.279,0.053,0.069,-0.394
+1989,FR,EU15,Wave III,France 1989,Mix,0.257,0.065,0.028,-0.492
+1984,FR,EU15,Wave II,France 1984,Mix,0.23,0.066,0.026,-0.447
+1978,FR,EU15,Wave I,France 1978,Mix,0.204,0.054,0.248,-0.419
+2013,GE,Europe - other,Wave IX,Georgia 2013,Net,0.135,,-0.036,
+2010,GE,Europe - other,Wave VIII,Georgia 2010,Net,0.146,,-0.016,
+2013,DE,EU15,Wave IX,Germany 2013,Gross,0.224,0.261,-0.118,-0.51
+2010,DE,EU15,Wave VIII,Germany 2010,Gross,0.231,0.263,-0.105,-0.506
+2007,DE,EU15,Wave VII,Germany 2007,Gross,0.222,0.265,-0.11,-0.513
+2004,DE,EU15,Wave VI,Germany 2004,Gross,0.221,0.253,-0.104,-0.507
+2000,DE,EU15,Wave V,Germany 2000,Gross,0.206,0.273,-0.121,-0.48
+1994,DE,EU15,Wave IV,Germany 1994,Gross,0.185,0.259,-0.184,-0.46
+1989,DE,EU15,Wave III,Germany 1989,Gross,0.168,0.271,-0.263,-0.443
+1984,DE,EU15,Wave II,Germany 1984,Gross,0.169,0.256,-0.25,-0.444
+1983,DE,EU15,Wave II,Germany 1983,Gross,0.179,0.188,-0.162,-0.423
+1981,DE,EU15,Wave I,Germany 1981,Gross,0.178,0.242,-0.233,-0.414
+1978,DE,EU15,Historical wave,Germany 1978,Gross,0.169,0.192,-0.171,-0.423
+1973,DE,EU15,Historical wave,Germany 1973,Gross,0.122,0.187,0.092,-0.38
+2013,GR,EU15,Wave IX,Greece 2013,Gross,0.296,0.205,0.172,-0.473
+2010,GR,EU15,Wave VIII,Greece 2010,Gross,0.262,0.22,0.135,-0.431
+2007,GR,EU15,Wave VII,Greece 2007,Gross,0.202,0.246,-0.089,-0.473
+2004,GR,EU15,Wave VI,Greece 2004,Net,0.22,,0.033,
+2000,GR,EU15,Wave V,Greece 2000,Net,0.218,,-0.081,
+1995,GR,EU15,Wave IV,Greece 1995,Net,0.209,,-0.076,
+2014,GT,Latin America,Wave IX,Guatemala 2014,Gross,0.028,0.146,-0.039,0.165
+2011,GT,Latin America,Wave VIII,Guatemala 2011,Gross,0.019,0.056,-0.044,0.17
+2006,GT,Latin America,Wave VI,Guatemala 2006,Gross,0.03,0.06,-0.013,0.318
+2012,HU,CEE,Wave IX,Hungary 2012,Net,0.326,,0.011,
+2009,HU,CEE,Wave VIII,Hungary 2009,Net,0.387,,0.017,
+2007,HU,CEE,Wave VII,Hungary 2007,Net,0.347,,0.038,
+2005,HU,CEE,Wave VI,Hungary 2005,Net,0.354,,0.015,
+1999,HU,CEE,Wave V,Hungary 1999,Net,0.316,,-0.025,
+1994,HU,CEE,Wave IV,Hungary 1994,Net,0.33,,-0.006,
+1991,HU,CEE,Wave III,Hungary 1991,Net,0.315,,-0.013,
+2010,IS,Europe - other,Wave VIII,Iceland 2010,Gross,0.164,0.266,-0.125,-0.411
+2007,IS,Europe - other,Wave VII,Iceland 2007,Gross,0.109,0.259,-0.223,-0.376
+2004,IS,Europe - other,Wave VI,Iceland 2004,Gross,0.126,0.271,-0.202,-0.374
+2011,IN,BRICS,Wave VIII,India 2011,Net,0.069,,0.13,
+2004,IN,BRICS,Wave VI,India 2004,Net,0.047,,0.029,
+2010,IE,EU15,Wave VIII,Ireland 2010,Gross,0.268,0.192,-0.087,-0.601
+2007,IE,EU15,Wave VII,Ireland 2007,Gross,0.21,0.153,-0.136,-0.602
+2004,IE,EU15,Wave VI,Ireland 2004,Gross,0.182,0.161,-0.158,-0.592
+2000,IE,EU15,Wave V,Ireland 2000,Net,0.168,,-0.208,
+1996,IE,EU15,Wave IV,Ireland 1996,Net,0.205,,-0.176,
+1995,IE,EU15,Wave IV,Ireland 1995,Net,0.199,,-0.185,
+1994,IE,EU15,Wave IV,Ireland 1994,Net,0.207,,-0.207,
+1987,IE,EU15,Wave II,Ireland 1987,Gross,0.189,0.199,-0.149,-0.567
+2012,IL,Middle East,Wave IX,Israel 2012,Gross,0.148,0.164,0.01,-0.571
+2010,IL,Middle East,Wave VIII,Israel 2010,Gross,0.152,0.169,0.01,-0.572
+2007,IL,Middle East,Wave VII,Israel 2007,Gross,0.156,0.19,-0.014,-0.58
+2005,IL,Middle East,Wave VI,Israel 2005,Gross,0.165,0.192,-0.004,-0.572
+2001,IL,Middle East,Wave V,Israel 2001,Gross,0.179,0.238,-0.037,-0.587
+1997,IL,Middle East,Wave IV,Israel 1997,Gross,0.16,0.236,-0.025,-0.571
+1992,IL,Middle East,Wave III,Israel 1992,Gross,0.155,0.196,-0.078,-0.581
+1986,IL,Middle East,Wave II,Israel 1986,Gross,0.146,0.228,-0.109,-0.577
+1979,IL,Middle East,Wave I,Israel 1979,Gross,0.11,0.291,-0.129,-0.509
+2014,IT,EU15,Wave IX,Italy 2014,Net,0.3,0.331,-0.004,-0.512
+2010,IT,EU15,Wave VIII,Italy 2010,Net,0.281,0.325,0.013,-0.49
+2008,IT,EU15,Wave VII,Italy 2008,Net,0.273,0.311,-0.008,-0.474
+2004,IT,EU15,Wave VI,Italy 2004,Net,0.256,0.32,0.013,-0.51
+2000,IT,EU15,Wave V,Italy 2000,Net,0.247,,-0.001,
+1998,IT,EU15,Wave V,Italy 1998,Net,0.248,,-0.013,
+1995,IT,EU15,Wave IV,Italy 1995,Net,0.254,,-0.008,
+1993,IT,EU15,Wave IV,Italy 1993,Net,0.227,,0.017,
+1991,IT,EU15,Wave III,Italy 1991,Net,0.207,,0.017,
+1989,IT,EU15,Wave III,Italy 1989,Net,0.19,,0.045,
+1987,IT,EU15,Wave II,Italy 1987,Net,0.183,,0.026,
+1986,IT,EU15,Wave II,Italy 1986,Net,0.202,,0.045,
+2008,JP,South-East Asia,Wave VII,Japan 2008,Gross,0.149,0.155,-0.036,-0.421
+2013,LU,EU15,Wave IX,Luxembourg 2013,Gross,0.26,0.227,0.106,-0.448
+2010,LU,EU15,Wave VIII,Luxembourg 2010,Gross,0.253,0.21,0.058,-0.447
+2007,LU,EU15,Wave VIII,Luxembourg 2007,Gross,0.221,0.21,0.002,-0.452
+2004,LU,EU15,Wave VI,Luxembourg 2004,Gross,0.233,0.194,0.029,-0.47
+2000,LU,EU15,Wave V,Luxembourg 2000,Net,0.253,,-0.005,
+1997,LU,EU15,Wave IV,Luxembourg 1997,Net,0.262,,0.004,
+1994,LU,EU15,Wave IV,Luxembourg 1994,Net,0.25,,0.001,
+1991,LU,EU15,Wave III,Luxembourg 1991,Net,0.231,,0.027,
+1985,LU,EU15,Wave II,Luxembourg 1985,Net,0.224,,-0.01,
+2012,MX,Latin America,Wave IX,Mexico 2012,Net,0.113,,0.022,
+2010,MX,Latin America,Wave VIII,Mexico 2010,Net,0.103,,-0.07,
+2008,MX,Latin America,Wave VII,Mexico 2008,Net,0.091,,0.109,
+2004,MX,Latin America,Wave VI,Mexico 2004,Net,0.059,,0.087,
+2002,MX,Latin America,Wave V,Mexico 2002,Net,0.054,,0.091,
+2000,MX,Latin America,Wave V,Mexico 2000,Net,0.044,,-0.008,
+1998,MX,Latin America,Wave V,Mexico 1998,Net,0.037,,-0.006,
+1996,MX,Latin America,Wave IV,Mexico 1996,Net,0.033,,0.019,
+1994,MX,Latin America,Wave IV,Mexico 1994,Net,0.034,,0.025,
+1992,MX,Latin America,Wave III,Mexico 1992,Net,0.024,,-0.013,
+1989,MX,Latin America,Wave III,Mexico 1989,Net,0.022,,-0.019,
+1984,MX,Latin America,Wave II,Mexico 1984,Net,0.019,,-0.021,
+2013,NL,EU15,Wave VIII,Netherlands 2013,Gross,0.222,0.326,-0.117,-0.422
+2010,NL,EU15,Wave VIII,Netherlands 2010,Gross,0.213,0.344,-0.136,-0.402
+2007,NL,EU15,Wave VII,Netherlands 2007,Gross,0.193,0.322,-0.175,-0.436
+2004,NL,EU15,Wave VI,Netherlands 2004,Gross,0.211,0.323,-0.147,-0.415
+1999,NL,EU15,Wave V,Netherlands 1999,Gross,0.212,0.258,-0.126,-0.409
+1993,NL,EU15,Wave IV,Netherlands 1993,Gross,0.233,0.322,-0.082,-0.386
+1990,NL,EU15,Wave III,Netherlands 1990,Gross,0.241,0.259,-0.074,-0.344
+1987,NL,EU15,Wave II,Netherlands 1987,Gross,0.294,0.341,0.001,-0.412
+1983,NL,EU15,Wave II,Netherlands 1983,Gross,0.29,0.315,-0.003,-0.404
+2013,NO,Europe - other,Wave IX,Norway 2013,Gross,0.232,0.258,-0.064,-0.423
+2010,NO,Europe - other,Wave VIII,Norway 2010,Gross,0.233,0.258,-0.093,-0.416
+2007,NO,Europe - other,Wave VII,Norway 2007,Gross,0.224,0.253,-0.103,-0.414
+2004,NO,Europe - other,Wave VI,Norway 2004,Gross,0.227,0.244,-0.119,-0.407
+2000,NO,Europe - other,Wave V,Norway 2000,Gross,0.184,0.25,-0.197,-0.414
+1995,NO,Europe - other,Wave IV,Norway 1995,Gross,0.193,0.244,-0.195,-0.415
+1991,NO,Europe - other,Wave III,Norway 1991,Gross,0.172,0.227,-0.193,-0.416
+1986,NO,Europe - other,Wave II,Norway 1986,Gross,0.14,0.242,-0.244,-0.391
+1979,NO,Europe - other,Wave I,Norway 1979,Gross,0.127,0.256,-0.323,-0.432
+2013,PA,Latin America,Wave IX,Panama 2013,Gross,0.116,0.089,0.111,-0.565
+2010,PA,Latin America,Wave VIII,Panama 2010,Gross,0.125,0.072,0.06,-0.576
+2007,PA,Latin America,Wave VII,Panama 2007,Gross,0.127,0.068,0.105,-0.592
+2013,PY,Latin America,Wave IX,Paraguay 2013,Net,0.039,,0.007,
+2010,PY,Latin America,Wave VIII,Paraguay 2010,Net,0.042,,-0.004,
+2013,PE,Latin America,Wave IX,Peru 2013,Gross,0.073,0.049,0.131,0.264
+2010,PE,Latin America,Wave VIII,Peru 2010,Gross,0.081,0.044,0.169,0.246
+2007,PE,Latin America,Wave VII,Peru 2007,Gross,0.089,0.039,0.21,0.246
+2004,PE,Latin America,Wave VI,Peru 2004,Gross,0.088,0.038,0.251,0.205
+2013,PL,CEE,Wave IX,Poland 2013,Gross,0.255,0.024,0.068,0.02
+2010,PL,CEE,Wave VIII,Poland 2010,Gross,0.252,0.034,0.049,0.025
+2007,PL,CEE,Wave VII,Poland 2007,Gross,0.277,0.052,0.08,0.05
+2004,PL,CEE,Wave VI,Poland 2004,Gross,0.329,0.069,0.149,0.096
+1999,PL,CEE,Wave V,Poland 1999,Gross,0.304,0.108,0.12,-0.366
+1995,PL,CEE,Wave IV,Poland 1995,Mix,0.36,0.157,0.102,-0.285
+1992,PL,CEE,Wave III,Poland 1992,Net,0.223,,-0.04,
+1986,PL,CEE,Wave II,Poland 1986,Net,0.152,,-0.102,
+1997,RO,CEE,Wave IV,Romania 1997,Gross,0.153,0.115,-0.021,-0.429
+1995,RO,CEE,Wave IV,Romania 1995,Gross,0.141,0.127,-0.038,-0.445
+2013,RU,BRICS,Wave IX,Russia 2013,Net,0.222,,0.055,
+2010,RU,BRICS,Wave VIII,Russia 2010,Net,0.21,,0.089,
+2007,RU,BRICS,Wave VII,Russia 2007,Net,0.167,,-0.01,
+2004,RU,BRICS,Wave VI,Russia 2004,Net,0.173,,0.002,
+2000,RU,BRICS,Wave V,Russia 2000,Net,0.163,,0.016,
+2013,RS,Europe - other,Wave IX,Serbia 2013,Net,0.336,,0.183,
+2010,RS,Europe - other,Wave VIII,Serbia 2010,Net,0.343,,0.184,
+2006,RS,Europe - other,Wave VII,Serbia 2006,Net,0.275,,0.193,
+2013,SK,CEE,Wave IX,Slovakia 2013,Gross,0.209,0.126,-0.108,-0.425
+2010,SK,CEE,Wave VIII,Slovakia 2010,Gross,0.222,0.106,-0.123,-0.461
+2007,SK,CEE,Wave VII,Slovakia 2007,Gross,0.201,0.142,-0.032,-0.431
+2004,SK,CEE,Wave VI,Slovakia 2004,Gross,0.218,0.16,-0.101,-0.464
+1996,SK,CEE,Wave IV,Slovakia 1996,Net,0.265,,-0.1,
+1992,SK,CEE,Wave III,Slovakia 1992,Gross,0.29,0.129,-0.142,-0.411
+2012,SI,CEE,Wave IX,Slovenia 2012,Net,0.282,,0.002,
+2010,SI,CEE,Wave VIII,Slovenia 2010,Net,0.261,,-0.013,
+2007,SI,CEE,Wave VII,Slovenia 2007,Net,0.258,,-0.041,
+2004,SI,CEE,Wave VI,Slovenia 2004,Net,0.267,,0.005,
+1999,SI,CEE,Wave V,Slovenia 1999,Net,0.261,,0.062,
+1997,SI,CEE,Wave IV,Slovenia 1997,Net,0.261,,0.067,
+2012,ZA,BRICS,Wave IX,South Africa 2012,Gross,0.106,0.188,0.193,0.377
+2010,ZA,BRICS,Wave VIII,South Africa 2010,Gross,0.141,0.198,0.301,0.379
+2008,ZA,BRICS,Wave VII,South Africa 2008,Gross,0.109,0.152,0.155,0.335
+2012,KR,South-East Asia,Wave IX,South Korea 2012,Gross,0.046,0.086,0.05,-0.4
+2010,KR,South-East Asia,Wave VIII,South Korea 2010,Gross,0.046,0.082,0.064,-0.404
+2008,KR,South-East Asia,Wave VII,South Korea 2008,Gross,0.04,0.077,-0.188,-0.431
+2006,KR,South-East Asia,Wave VI,South Korea 2006,Gross,0.032,0.073,-0.172,-0.418
+2013,ES,EU15,Wave IX,Spain 2013,Gross,0.263,0.161,0.153,-0.552
+2010,ES,EU15,Wave VIII,Spain 2010,Gross,0.234,0.135,0.081,-0.461
+2007,ES,EU15,Wave VII,Spain 2007,Gross,0.179,0.146,-0.124,-0.457
+2004,ES,EU15,Wave VI,Spain 2004,Net,0.204,,-0.084,
+2000,ES,EU15,Wave V,Spain 2000,Net,0.203,,-0.069,
+1995,ES,EU15,Wave IV,Spain 1995,Net,0.221,,0.003,
+1990,ES,EU15,Wave III,Spain 1990,Net,0.21,,-0.071,
+1985,ES,EU15,Wave II,Spain 1985,Net,0.203,,-0.072,
+1980,ES,EU15,Wave I,Spain 1980,Net,0.151,,0.055,
+2005,SE,EU15,Wave VI,Sweden 2005,Gross,0.281,0.281,-0.074,-0.367
+2000,SE,EU15,Wave V,Sweden 2000,Gross,0.262,0.302,-0.08,-0.377
+1995,SE,EU15,Wave IV,Sweden 1995,Gross,0.331,0.286,-0.042,-0.373
+1992,SE,EU15,Wave III,Sweden 1992,Gross,0.307,0.251,-0.03,-0.36
+1987,SE,EU15,Wave II,Sweden 1987,Gross,0.276,0.325,-0.03,-0.36
+1981,SE,EU15,Wave I,Sweden 1981,Gross,0.268,0.298,-0.053,-0.374
+1975,SE,EU15,Historical wave,Sweden 1975,Gross,0.194,0.307,-0.132,-0.426
+1967,SE,EU15,Historical wave,Sweden 1967,Gross,0.119,0.288,-0.148,-0.454
+2013,CH,Europe - other,Wave IX,Switzerland 2013,Gross,0.172,0.281,-0.144,-0.321
+2010,CH,Europe - other,Wave VIII,Switzerland 2010,Gross,0.161,0.274,-0.16,-0.299
+2007,CH,Europe - other,Wave VII,Switzerland 2007,Gross,0.155,0.273,-0.147,-0.302
+2004,CH,Europe - other,Wave VI,Switzerland 2004,Gross,0.174,0.261,-0.164,-0.279
+2002,CH,Europe - other,Wave V,Switzerland 2002,Gross,0.16,0.251,-0.149,-0.294
+2000,CH,Europe - other,Wave V,Switzerland 2000,Gross,0.153,0.245,-0.135,-0.296
+1992,CH,Europe - other,Wave III,Switzerland 1992,Gross,0.122,0.169,0.035,-0.385
+1982,CH,Europe - other,Wave I,Switzerland 1982,Gross,0.081,0.18,0.089,-0.428
+2013,TW,South-East Asia,Wave IX,Taiwan 2013,Gross,0.099,0.133,0.077,-0.284
+2010,TW,South-East Asia,Wave VIII,Taiwan 2010,Gross,0.081,0.123,0.068,-0.246
+2007,TW,South-East Asia,Wave VII,Taiwan 2007,Gross,0.081,0.103,0.057,-0.288
+2005,TW,South-East Asia,Wave VI,Taiwan 2005,Gross,0.089,0.048,0.099,-0.367
+2000,TW,South-East Asia,Wave V,Taiwan 2000,Gross,0.059,0.044,0.063,-0.344
+1997,TW,South-East Asia,Wave IV,Taiwan 1997,Gross,0.046,0.044,0.014,-0.312
+1995,TW,South-East Asia,Wave IV,Taiwan 1995,Gross,,,,
+1991,TW,South-East Asia,Wave III,Taiwan 1991,Gross,0.013,0.014,-0.126,-0.355
+1986,TW,South-East Asia,Wave II,Taiwan 1986,Gross,0.005,0.014,0.048,0.259
+1981,TW,South-East Asia,Wave I,Taiwan 1981,Gross,0.004,0.01,0.043,0.224
+2013,UK,EU15,Wave IX,United Kingdom 2013,Gross,0.217,0.167,-0.123,-0.536
+2010,UK,EU15,Wave VIII,United Kingdom 2010,Gross,0.214,0.178,-0.141,-0.537
+2007,UK,EU15,Wave VII,United Kingdom 2007,Gross,0.189,0.178,-0.181,-0.535
+2004,UK,EU15,Wave VI,United Kingdom 2004,Gross,0.196,0.205,-0.179,-0.467
+1999,UK,EU15,Wave V,United Kingdom 1999,Gross,0.196,0.212,-0.185,-0.48
+1995,UK,EU15,Wave IV,United Kingdom 1995,Gross,0.206,0.221,-0.145,-0.514
+1994,UK,EU15,Wave IV,United Kingdom 1994,Gross,0.211,0.209,-0.167,-0.495
+1991,UK,EU15,Wave III,United Kingdom 1991,Gross,0.172,0.235,-0.207,-0.478
+1986,UK,EU15,Wave II,United Kingdom 1986,Gross,0.219,0.219,-0.138,-0.482
+1979,UK,EU15,Wave I,United Kingdom 1979,Gross,0.172,0.195,-0.173,-0.431
+1974,UK,EU15,Historical wave,United Kingdom 1974,Gross,0.097,0.142,-0.263,-0.469
+1969,UK,EU15,Historical wave,United Kingdom 1969,Gross,0.102,0.126,-0.206,-0.487
+2013,US,Anglo-Saxon,Wave IX,United States 2013,Gross,0.138,0.196,-0.091,-0.574
+2010,US,Anglo-Saxon,Wave VIII,United States 2010,Gross,0.148,0.196,-0.052,-0.579
+2007,US,Anglo-Saxon,Wave VII,United States 2007,Gross,0.115,0.201,-0.133,-0.551
+2004,US,Anglo-Saxon,Wave VI,United States 2004,Gross,0.12,0.198,-0.115,-0.572
+2000,US,Anglo-Saxon,Wave V,United States 2000,Gross,0.102,0.224,-0.243,-0.569
+1997,US,Anglo-Saxon,Wave IV,United States 1997,Gross,0.112,0.215,-0.236,-0.561
+1994,US,Anglo-Saxon,Wave IV,United States 1994,Gross,0.121,0.205,-0.215,-0.564
+1991,US,Anglo-Saxon,Wave III,United States 1991,Gross,0.12,0.2,-0.208,-0.549
+1986,US,Anglo-Saxon,Wave II,United States 1986,Gross,0.109,0.211,-0.207,-0.542
+1979,US,Anglo-Saxon,Wave I,United States 1979,Gross,0.104,0.204,-0.231,-0.528
+1974,US,Anglo-Saxon,Historical wave,United States 1974,Gross,0.085,0.183,0.121,-0.5
+2013,UY,Latin America,Wave IX,Uruguay 2013,Net,0.202,,0.076,
+2010,UY,Latin America,Wave VIII,Uruguay 2010,Net,0.199,,0.083,
+2007,UY,Latin America,Wave VII,Uruguay 2007,Net,0.202,,0.102,
+2004,UY,Latin America,Wave VI,Uruguay 2004,Net,0.252,,0.208,
+,,,,,,,,,
+Mean,,,,,,0.185,0.191,-0.053,-0.407
+Minimum,,,,,,0.004,0.01,-0.37,-0.602
+Maximum,,,,,,0.387,0.344,0.324,0.379
+N * T,,,,,,290,210,290,210
+,,,,,,,,,
+Notes,,,,,,,,,
+Budget size is the average size of social tranfers / taxes as a proportion of pre-tax (gross) income.,,,,,,,,,
+Efficiency index ranges from -1.0 to + 1.0  (the poorest respectively the richest reciepient recieves all transfer income),,,,,,,,,
+"Results for Hungary 2012, 2009 and 2007 should be treated with caution. We miss over 20% of the observations when we move from disposable income to primary income.",,,,,,,,,
+"For some countries and years, private transfers are not available, including Canada (1997, 1994, 1991, 1987, 1981, 1975, 1971), Czech Republic (1996, 1992), Italy (1986), Norway (2013, 2010, 2007), Poland (1986), Romania (1997, 1995), Slovakia (1992), Spain (1985, 1980), Sweden (1981, 1967). Taiwan (1995) has no information on private transfers or social security transfers. Austria (1995, 1987) only has information on disposable income. For cases without information on private transfers, we calculate all incomes without adding private transfers.",,,,,,,,,
+"Gross income data for most countries and years (194 datasets), while income data net of income taxes for 80 countries and years (marked italic).",,,,,,,,,
