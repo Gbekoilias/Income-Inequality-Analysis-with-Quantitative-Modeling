@@ -271,3 +271,14 @@ keep if inlist(Country, `countries_of_interest')
 * Display the first few rows of the filtered DataFrame
 list Country mean_budget_size mean_efficiency
 
+* Set up the panel data structure using the 'country' and 'year' columns
+xtset Country Year
+
+* Perform time series analysis using panel data methods, for example, fixed effects regression
+* Replace 'dependent_variable' and 'independent_variable' with your actual variable names
+xtreg dependent_variable independent_variable, fe
+
+* Display the regression results
+esttab, title("Fixed Effects Regression Results") se star(* 0.1 ** 0.05 *** 0.01) ///
+    label collabels(none) keep(dependent_variable independent_variable) ///
+    stats(r2_a N, fmt(3 0) labels("R-squared" "Observations"))
