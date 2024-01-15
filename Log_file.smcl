@@ -443,4 +443,19 @@ end of do-file
 
 {search r(111):r(111);}
 
-{com}. 
+{com}. run "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\do_file.do"
+{err}file excel_file not found
+{txt}{search r(601):r(601);}
+
+{com}. run "C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\do_file.do"
+{err}file excel_file not found
+{txt}{search r(601):r(601);}
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\DONKAMS\Downloads\Income-Inequality-Analysis-with-Quantitative-Modeling\Log_file.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}15 Jan 2024, 08:09:19
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
